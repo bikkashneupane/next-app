@@ -15,11 +15,16 @@
 }
 
 body {
-  padding: 1rem;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+@layer base {
+  h1 {
+    @apply font-extrabold text-xl mb-3;
   }
 }
